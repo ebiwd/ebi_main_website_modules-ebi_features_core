@@ -1,0 +1,10 @@
+name = EBI Features Core
+description = Export Core functions
+core = 7.x
+package = EBI
+dependencies[] = ebi_jobs
+dependencies[] = fe_block
+dependencies[] = views
+features[fe_block_settings][] = ebi_jobs-jobs_listing_filter
+features[fe_block_settings][] = views-jobs_main_listing-block
+features[features_api][] = api:2
